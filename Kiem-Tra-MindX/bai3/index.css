@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  list-style: none;
+}
+html {
+  display: flex;
+  justify-content: center;
+}
+/* T   O   P */
+#top {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  height: 30vh;
+  width: 80vw;
+}
+#top h1 {
+  color: var(--151-b-32, #151b32);
+  font-family: Merriweather;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+#top main {
+  color: var(--151-b-32, #151b32);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+  height: 8vh;
+}
+#searchBar input {
+  border: none;
+  color: var(--151-b-32, #151b32);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  width: 80%;
+  margin-left: 5%;
+}
+#searchBar {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--bfc-8-e-6, #bfc8e5);
+  border-radius: 8px;
+  padding-left: 1%;
+  width: 30%;
+}
+nav {
+  display: flex;
+}
+#top main p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  width: 115px;
+}
+#top main p:hover {
+  background-color: #849fff;
+}
+/* B   O   T   T   O   M */
+#bottom {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80vw;
+}
+#bottom > div {
+  display: flex;
+  width: 33.33%;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+#bottom div div {
+  width: 10vw;
+  margin-left: 5%;
+  line-height: 25px;
+}
+#bottom div div h3 {
+  color: var(--151-b-32, #151b32);
+  font-family: Merriweather;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+#bottom div div h5 {
+  color: var(--151-b-32, #151b32);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+#bottom div div p {
+  color: #516fd4;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: inline;
+  border-radius: 16px;
+  border: 1px solid #516fd4;
+  padding: 2px;
+}
+#bottom > div:hover {
+  border-radius: 16px;
+  border: 1px solid #bfc8e5;
+  background: #fbfcff;
+  box-shadow: 0px 8px 23px 0px rgba(218, 224, 249, 0.7);
+}
